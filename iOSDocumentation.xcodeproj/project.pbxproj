@@ -115,6 +115,15 @@
 		7CB147502449545400AC774C /* SecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1474F2449545400AC774C /* SecurityViewController.swift */; };
 		7CB147542449549600AC774C /* SystemConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB147532449549600AC774C /* SystemConfigurationViewController.swift */; };
 		7CB14756244954B800AC774C /* LinkPresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB14755244954B800AC774C /* LinkPresentationViewController.swift */; };
+		7CB1475A2449592400AC774C /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB147592449592400AC774C /* AuthenticationServices.framework */; };
+		7CB1475C2449596F00AC774C /* BundleResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1475B2449596F00AC774C /* BundleResourcesViewController.swift */; };
+		7CB1475E2449836700AC774C /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB1475D2449836700AC774C /* GameKit.framework */; };
+		7CB14760244983F300AC774C /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB1475F244983F300AC774C /* HealthKit.framework */; };
+		7CB147622449854900AC774C /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB147612449854900AC774C /* HomeKit.framework */; };
+		7CB147642449871D00AC774C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB147632449871D00AC774C /* AudioToolbox.framework */; };
+		7CB147662449876700AC774C /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB147652449876700AC774C /* NetworkExtension.framework */; };
+		7CB14768244997BC00AC774C /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB14767244997BC00AC774C /* ExternalAccessory.framework */; };
+		7CB1476A244998BB00AC774C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB14769244998BB00AC774C /* MapKit.framework */; };
 		7CCB1567228A96B50095F84F /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB1566228A96B50095F84F /* AccountsViewController.swift */; };
 		7CCB1569228A97E20095F84F /* AddressBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB1568228A97E20095F84F /* AddressBookViewController.swift */; };
 		7CCB156B228A99920095F84F /* AddressBookUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB156A228A99920095F84F /* AddressBookUIViewController.swift */; };
@@ -258,6 +267,16 @@
 		7CB1474F2449545400AC774C /* SecurityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityViewController.swift; sourceTree = "<group>"; };
 		7CB147532449549600AC774C /* SystemConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemConfigurationViewController.swift; sourceTree = "<group>"; };
 		7CB14755244954B800AC774C /* LinkPresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkPresentationViewController.swift; sourceTree = "<group>"; };
+		7CB14757244958D400AC774C /* iOSDocumentation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOSDocumentation.entitlements; sourceTree = "<group>"; };
+		7CB147592449592400AC774C /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		7CB1475B2449596F00AC774C /* BundleResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleResourcesViewController.swift; sourceTree = "<group>"; };
+		7CB1475D2449836700AC774C /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		7CB1475F244983F300AC774C /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		7CB147612449854900AC774C /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		7CB147632449871D00AC774C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7CB147652449876700AC774C /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		7CB14767244997BC00AC774C /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		7CB14769244998BB00AC774C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		7CCB1566228A96B50095F84F /* AccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsViewController.swift; sourceTree = "<group>"; };
 		7CCB1568228A97E20095F84F /* AddressBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookViewController.swift; sourceTree = "<group>"; };
 		7CCB156A228A99920095F84F /* AddressBookUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookUIViewController.swift; sourceTree = "<group>"; };
@@ -274,6 +293,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CB14760244983F300AC774C /* HealthKit.framework in Frameworks */,
+				7CB147662449876700AC774C /* NetworkExtension.framework in Frameworks */,
+				7CB1476A244998BB00AC774C /* MapKit.framework in Frameworks */,
+				7CB1475A2449592400AC774C /* AuthenticationServices.framework in Frameworks */,
+				7CB147642449871D00AC774C /* AudioToolbox.framework in Frameworks */,
+				7CB14768244997BC00AC774C /* ExternalAccessory.framework in Frameworks */,
+				7CB147622449854900AC774C /* HomeKit.framework in Frameworks */,
+				7CB1475E2449836700AC774C /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +328,7 @@
 				7C29A5E82285631800E7FCC4 /* iOSDocumentationTests */,
 				7C29A5F32285631800E7FCC4 /* iOSDocumentationUITests */,
 				7C29A5CF2285631700E7FCC4 /* Products */,
+				7CB147582449592400AC774C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -317,6 +345,8 @@
 		7C29A5D02285631700E7FCC4 /* iOSDocumentation */ = {
 			isa = PBXGroup;
 			children = (
+				7CB14757244958D400AC774C /* iOSDocumentation.entitlements */,
+				7CB1475B2449596F00AC774C /* BundleResourcesViewController.swift */,
 				7C29A5D12285631700E7FCC4 /* AppDelegate.swift */,
 				7C29A5D32285631700E7FCC4 /* FoundationViewController.swift */,
 				7C5CF41F2289056F004E60A1 /* UIKitViewController.swift */,
@@ -453,6 +483,21 @@
 				7C29A5F62285631800E7FCC4 /* Info.plist */,
 			);
 			path = iOSDocumentationUITests;
+			sourceTree = "<group>";
+		};
+		7CB147582449592400AC774C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CB14769244998BB00AC774C /* MapKit.framework */,
+				7CB14767244997BC00AC774C /* ExternalAccessory.framework */,
+				7CB147652449876700AC774C /* NetworkExtension.framework */,
+				7CB147632449871D00AC774C /* AudioToolbox.framework */,
+				7CB147612449854900AC774C /* HomeKit.framework */,
+				7CB1475F244983F300AC774C /* HealthKit.framework */,
+				7CB1475D2449836700AC774C /* GameKit.framework */,
+				7CB147592449592400AC774C /* AuthenticationServices.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -600,6 +645,7 @@
 				7CB146BC24494A7900AC774C /* PushKitViewController.swift in Sources */,
 				7CB146E824494D7300AC774C /* MetalKitViewController.swift in Sources */,
 				7CB146CA24494B9600AC774C /* UserNotificationsViewController.swift in Sources */,
+				7CB1475C2449596F00AC774C /* BundleResourcesViewController.swift in Sources */,
 				7CB146E424494D2F00AC774C /* MetalViewController.swift in Sources */,
 				7CB146902449470100AC774C /* CoreFaoundationViewController.swift in Sources */,
 				7CB147142449505F00AC774C /* ImageCaptureCoreViewController.swift in Sources */,
@@ -872,6 +918,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iOSDocumentation/iOSDocumentation.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iOSDocumentation/Info.plist;
@@ -891,6 +938,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iOSDocumentation/iOSDocumentation.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iOSDocumentation/Info.plist;
