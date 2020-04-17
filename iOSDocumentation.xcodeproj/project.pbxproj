@@ -1,0 +1,1042 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C29A5D22285631700E7FCC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C29A5D12285631700E7FCC4 /* AppDelegate.swift */; };
+		7C29A5D42285631700E7FCC4 /* FoundationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C29A5D32285631700E7FCC4 /* FoundationViewController.swift */; };
+		7C29A5D72285631700E7FCC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C29A5D52285631700E7FCC4 /* Main.storyboard */; };
+		7C29A5DA2285631700E7FCC4 /* iOSDocumentation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C29A5D82285631700E7FCC4 /* iOSDocumentation.xcdatamodeld */; };
+		7C29A5DC2285631800E7FCC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C29A5DB2285631800E7FCC4 /* Assets.xcassets */; };
+		7C29A5DF2285631800E7FCC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C29A5DD2285631800E7FCC4 /* LaunchScreen.storyboard */; };
+		7C29A5EA2285631800E7FCC4 /* iOSDocumentationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C29A5E92285631800E7FCC4 /* iOSDocumentationTests.swift */; };
+		7C29A5F52285631800E7FCC4 /* iOSDocumentationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C29A5F42285631800E7FCC4 /* iOSDocumentationUITests.swift */; };
+		7C5CF4202289056F004E60A1 /* UIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5CF41F2289056F004E60A1 /* UIKitViewController.swift */; };
+		7C5CF422228942A0004E60A1 /* AppKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5CF421228942A0004E60A1 /* AppKitViewController.swift */; };
+		7C5CF42422894342004E60A1 /* FileProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5CF42322894342004E60A1 /* FileProviderViewController.swift */; };
+		7CAA74DA228BA59200C17616 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA74D9228BA59200C17616 /* ContactsViewController.swift */; };
+		7CAA74DC228BA96900C17616 /* ContactsUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA74DB228BA96900C17616 /* ContactsUIViewController.swift */; };
+		7CAA74DE228BA9FD00C17616 /* CoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA74DD228BA9FD00C17616 /* CoreDataViewController.swift */; };
+		7CB146902449470100AC774C /* CoreFaoundationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1468F2449470100AC774C /* CoreFaoundationViewController.swift */; };
+		7CB146922449472900AC774C /* CoreLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146912449472900AC774C /* CoreLocationViewController.swift */; };
+		7CB146942449474E00AC774C /* CoreMLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146932449474E00AC774C /* CoreMLViewController.swift */; };
+		7CB146962449476F00AC774C /* CoreMotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146952449476F00AC774C /* CoreMotionViewController.swift */; };
+		7CB146982449479400AC774C /* CoreSpotlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146972449479400AC774C /* CoreSpotlightViewController.swift */; };
+		7CB1469A244947B200AC774C /* CoreTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB14699244947B200AC774C /* CoreTextViewController.swift */; };
+		7CB1469C244947D700AC774C /* DeviceCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1469B244947D700AC774C /* DeviceCheckViewController.swift */; };
+		7CB1469E244947F700AC774C /* EventKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1469D244947F700AC774C /* EventKitViewController.swift */; };
+		7CB146A02449481500AC774C /* EventKitUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1469F2449481500AC774C /* EventKitUIViewController.swift */; };
+		7CB146A22449486C00AC774C /* FileProviderUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146A12449486C00AC774C /* FileProviderUIViewController.swift */; };
+		7CB146A42449489100AC774C /* HealthKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146A32449489100AC774C /* HealthKitViewController.swift */; };
+		7CB146A6244948AF00AC774C /* HomeKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146A5244948AF00AC774C /* HomeKitViewController.swift */; };
+		7CB146A82449495900AC774C /* iAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146A72449495900AC774C /* iAdViewController.swift */; };
+		7CB146AA2449497C00AC774C /* JavaScriptCoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146A92449497C00AC774C /* JavaScriptCoreViewController.swift */; };
+		7CB146AC2449499800AC774C /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146AB2449499800AC774C /* MapKitViewController.swift */; };
+		7CB146AE244949B200AC774C /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146AD244949B200AC774C /* MessagesViewController.swift */; };
+		7CB146B0244949CB00AC774C /* MessageUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146AF244949CB00AC774C /* MessageUIViewController.swift */; };
+		7CB146B2244949EA00AC774C /* MultipeerConnectivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146B1244949EA00AC774C /* MultipeerConnectivityViewController.swift */; };
+		7CB146B424494A0700AC774C /* NaturalLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146B324494A0700AC774C /* NaturalLanguageViewController.swift */; };
+		7CB146B624494A2200AC774C /* NewsstandKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146B524494A2200AC774C /* NewsstandKitViewController.swift */; };
+		7CB146B824494A4100AC774C /* NotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146B724494A4100AC774C /* NotificationCenterViewController.swift */; };
+		7CB146BA24494A5F00AC774C /* PassKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146B924494A5F00AC774C /* PassKitViewController.swift */; };
+		7CB146BC24494A7900AC774C /* PushKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146BB24494A7900AC774C /* PushKitViewController.swift */; };
+		7CB146BE24494AA100AC774C /* QuickLookThumbnailingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146BD24494AA100AC774C /* QuickLookThumbnailingViewController.swift */; };
+		7CB146C024494AC600AC774C /* SafariServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146BF24494AC600AC774C /* SafariServicesViewController.swift */; };
+		7CB146C424494B3500AC774C /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146C324494B3500AC774C /* SocialViewController.swift */; };
+		7CB146C624494B5C00AC774C /* SpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146C524494B5C00AC774C /* SpeechViewController.swift */; };
+		7CB146C824494B7400AC774C /* StoreKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146C724494B7400AC774C /* StoreKitViewController.swift */; };
+		7CB146CA24494B9600AC774C /* UserNotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146C924494B9600AC774C /* UserNotificationsViewController.swift */; };
+		7CB146CC24494BB400AC774C /* UserNotificationsUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146CB24494BB400AC774C /* UserNotificationsUIViewController.swift */; };
+		7CB146CE24494BCF00AC774C /* WatchConnectivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146CD24494BCF00AC774C /* WatchConnectivityViewController.swift */; };
+		7CB146D024494BE500AC774C /* WebKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146CF24494BE500AC774C /* WebKitViewController.swift */; };
+		7CB146D224494C2C00AC774C /* ARKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146D124494C2C00AC774C /* ARKitViewController.swift */; };
+		7CB146D624494C7E00AC774C /* CoreGraphicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146D524494C7E00AC774C /* CoreGraphicsViewController.swift */; };
+		7CB146D824494C9A00AC774C /* CoreImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146D724494C9A00AC774C /* CoreImageViewController.swift */; };
+		7CB146DA24494CB700AC774C /* GameConterollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146D924494CB700AC774C /* GameConterollerViewController.swift */; };
+		7CB146DC24494CCE00AC774C /* GameKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146DB24494CCE00AC774C /* GameKitViewController.swift */; };
+		7CB146DE24494CE700AC774C /* GameplayKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146DD24494CE700AC774C /* GameplayKitViewController.swift */; };
+		7CB146E024494CFF00AC774C /* GLKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146DF24494CFF00AC774C /* GLKitViewController.swift */; };
+		7CB146E224494D1700AC774C /* ImageIOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146E124494D1700AC774C /* ImageIOViewController.swift */; };
+		7CB146E424494D2F00AC774C /* MetalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146E324494D2F00AC774C /* MetalViewController.swift */; };
+		7CB146E624494D4C00AC774C /* MetalPerformanceShadersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146E524494D4C00AC774C /* MetalPerformanceShadersViewController.swift */; };
+		7CB146E824494D7300AC774C /* MetalKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146E724494D7300AC774C /* MetalKitViewController.swift */; };
+		7CB146EA24494E1000AC774C /* ModelIOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146E924494E1000AC774C /* ModelIOViewController.swift */; };
+		7CB146EC24494E2F00AC774C /* OpenGLESViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146EB24494E2F00AC774C /* OpenGLESViewController.swift */; };
+		7CB146EE24494E4600AC774C /* PDFKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146ED24494E4600AC774C /* PDFKitViewController.swift */; };
+		7CB146F024494E6400AC774C /* PencilKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146EF24494E6400AC774C /* PencilKitViewController.swift */; };
+		7CB146F224494E8500AC774C /* RealityKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146F124494E8500AC774C /* RealityKitViewController.swift */; };
+		7CB146F424494EA000AC774C /* ReplayKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146F324494EA000AC774C /* ReplayKitViewController.swift */; };
+		7CB146F624494EBE00AC774C /* SceneKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146F524494EBE00AC774C /* SceneKitViewController.swift */; };
+		7CB146F824494ED800AC774C /* SpriteKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146F724494ED800AC774C /* SpriteKitViewController.swift */; };
+		7CB146FA24494EEF00AC774C /* VisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146F924494EEF00AC774C /* VisionViewController.swift */; };
+		7CB146FC24494F1100AC774C /* AssetsLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146FB24494F1100AC774C /* AssetsLibraryViewController.swift */; };
+		7CB146FE24494F2B00AC774C /* AudioToolboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146FD24494F2B00AC774C /* AudioToolboxViewController.swift */; };
+		7CB1470024494F4700AC774C /* AudioUnitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB146FF24494F4700AC774C /* AudioUnitViewController.swift */; };
+		7CB1470224494F6100AC774C /* AVFoundationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1470124494F6100AC774C /* AVFoundationViewController.swift */; };
+		7CB1470424494F7700AC774C /* AVKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1470324494F7700AC774C /* AVKitViewController.swift */; };
+		7CB1470624494F9200AC774C /* CoreAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1470524494F9200AC774C /* CoreAudioViewController.swift */; };
+		7CB1470824494FAE00AC774C /* CoreAudioKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1470724494FAE00AC774C /* CoreAudioKitViewController.swift */; };
+		7CB1470A24494FCA00AC774C /* CoreAudioTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1470924494FCA00AC774C /* CoreAudioTypesViewController.swift */; };
+		7CB1470C24494FEC00AC774C /* CoreHapticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1470B24494FEC00AC774C /* CoreHapticsViewController.swift */; };
+		7CB1470E2449500C00AC774C /* CoreMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1470D2449500C00AC774C /* CoreMediaViewController.swift */; };
+		7CB147102449502500AC774C /* CoreMIDIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1470F2449502500AC774C /* CoreMIDIViewController.swift */; };
+		7CB147122449504000AC774C /* CoreVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB147112449504000AC774C /* CoreVideoViewController.swift */; };
+		7CB147142449505F00AC774C /* ImageCaptureCoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB147132449505F00AC774C /* ImageCaptureCoreViewController.swift */; };
+		7CB147162449507E00AC774C /* MediaPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB147152449507E00AC774C /* MediaPlayerViewController.swift */; };
+		7CB147182449509C00AC774C /* MediaAccessibilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB147172449509C00AC774C /* MediaAccessibilityViewController.swift */; };
+		7CB1471A244950BC00AC774C /* PhotoKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB14719244950BC00AC774C /* PhotoKitViewController.swift */; };
+		7CB1471C2449510500AC774C /* SoundAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1471B2449510500AC774C /* SoundAnalysisViewController.swift */; };
+		7CB1471E2449512000AC774C /* VideoToolboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1471D2449512000AC774C /* VideoToolboxViewController.swift */; };
+		7CB147202449513700AC774C /* VisionKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1471F2449513700AC774C /* VisionKitViewController.swift */; };
+		7CB147222449515800AC774C /* AccelerateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB147212449515800AC774C /* AccelerateViewController.swift */; };
+		7CB147242449517700AC774C /* AppleCryptoKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB147232449517700AC774C /* AppleCryptoKitViewController.swift */; };
+		7CB147262449519B00AC774C /* AuthenticationServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB147252449519B00AC774C /* AuthenticationServicesViewController.swift */; };
+		7CB14728244951B600AC774C /* CFNetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB14727244951B600AC774C /* CFNetworkViewController.swift */; };
+		7CB1472A244951D300AC774C /* CompressionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB14729244951D300AC774C /* CompressionViewController.swift */; };
+		7CB1472C244951F100AC774C /* CoreBluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1472B244951F100AC774C /* CoreBluetoothViewController.swift */; };
+		7CB1472E2449520700AC774C /* CoreNFCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1472D2449520700AC774C /* CoreNFCViewController.swift */; };
+		7CB147302449522200AC774C /* CoreServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1472F2449522200AC774C /* CoreServicesViewController.swift */; };
+		7CB147322449523F00AC774C /* CoreTelephonyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB147312449523F00AC774C /* CoreTelephonyViewController.swift */; };
+		7CB147342449525F00AC774C /* CryptoTokenKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB147332449525F00AC774C /* CryptoTokenKitViewController.swift */; };
+		7CB14738244952C000AC774C /* DispatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB14737244952C000AC774C /* DispatchViewController.swift */; };
+		7CB1473A244952E900AC774C /* ExternalAccessoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB14739244952E900AC774C /* ExternalAccessoryViewController.swift */; };
+		7CB1473C2449531500AC774C /* GSSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1473B2449531500AC774C /* GSSViewController.swift */; };
+		7CB147402449536100AC774C /* IOSurfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1473F2449536100AC774C /* IOSurfaceViewController.swift */; };
+		7CB147422449538400AC774C /* LocalAuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB147412449538400AC774C /* LocalAuthenticationViewController.swift */; };
+		7CB147442449539F00AC774C /* MetricKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB147432449539E00AC774C /* MetricKitViewController.swift */; };
+		7CB14746244953BA00AC774C /* MobileCoreServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB14745244953BA00AC774C /* MobileCoreServicesViewController.swift */; };
+		7CB14748244953D500AC774C /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB14747244953D500AC774C /* NetworkViewController.swift */; };
+		7CB1474A244953F100AC774C /* NetworkExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB14749244953F100AC774C /* NetworkExtensionViewController.swift */; };
+		7CB1474E2449543900AC774C /* osViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1474D2449543900AC774C /* osViewController.swift */; };
+		7CB147502449545400AC774C /* SecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1474F2449545400AC774C /* SecurityViewController.swift */; };
+		7CB147542449549600AC774C /* SystemConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB147532449549600AC774C /* SystemConfigurationViewController.swift */; };
+		7CB14756244954B800AC774C /* LinkPresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB14755244954B800AC774C /* LinkPresentationViewController.swift */; };
+		7CCB1567228A96B50095F84F /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB1566228A96B50095F84F /* AccountsViewController.swift */; };
+		7CCB1569228A97E20095F84F /* AddressBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB1568228A97E20095F84F /* AddressBookViewController.swift */; };
+		7CCB156B228A99920095F84F /* AddressBookUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB156A228A99920095F84F /* AddressBookUIViewController.swift */; };
+		7CCB156D228A9A560095F84F /* AdSupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB156C228A9A560095F84F /* AdSupportViewController.swift */; };
+		7CCB156F228A9AA80095F84F /* BusinessChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB156E228A9AA80095F84F /* BusinessChatViewController.swift */; };
+		7CCB1571228A9B140095F84F /* CallKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB1570228A9B140095F84F /* CallKitViewController.swift */; };
+		7CCB1573228AAE220095F84F /* CarPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB1572228AAE220095F84F /* CarPlayViewController.swift */; };
+		7CCB1575228AB39F0095F84F /* ClassKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB1574228AB39F0095F84F /* ClassKitViewController.swift */; };
+		7CCB1577228AB4C10095F84F /* CloudKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB1576228AB4C10095F84F /* CloudKitViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C29A5E62285631800E7FCC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C29A5C62285631700E7FCC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C29A5CD2285631700E7FCC4;
+			remoteInfo = iOSDocumentation;
+		};
+		7C29A5F12285631800E7FCC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C29A5C62285631700E7FCC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C29A5CD2285631700E7FCC4;
+			remoteInfo = iOSDocumentation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C29A5CE2285631700E7FCC4 /* iOSDocumentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDocumentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C29A5D12285631700E7FCC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C29A5D32285631700E7FCC4 /* FoundationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationViewController.swift; sourceTree = "<group>"; };
+		7C29A5D62285631700E7FCC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C29A5D92285631700E7FCC4 /* iOSDocumentation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSDocumentation.xcdatamodel; sourceTree = "<group>"; };
+		7C29A5DB2285631800E7FCC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C29A5DE2285631800E7FCC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C29A5E02285631800E7FCC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C29A5E52285631800E7FCC4 /* iOSDocumentationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDocumentationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C29A5E92285631800E7FCC4 /* iOSDocumentationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSDocumentationTests.swift; sourceTree = "<group>"; };
+		7C29A5EB2285631800E7FCC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C29A5F02285631800E7FCC4 /* iOSDocumentationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDocumentationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C29A5F42285631800E7FCC4 /* iOSDocumentationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSDocumentationUITests.swift; sourceTree = "<group>"; };
+		7C29A5F62285631800E7FCC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C5CF41F2289056F004E60A1 /* UIKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitViewController.swift; sourceTree = "<group>"; };
+		7C5CF421228942A0004E60A1 /* AppKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppKitViewController.swift; sourceTree = "<group>"; };
+		7C5CF42322894342004E60A1 /* FileProviderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProviderViewController.swift; sourceTree = "<group>"; };
+		7CAA74D9228BA59200C17616 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		7CAA74DB228BA96900C17616 /* ContactsUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsUIViewController.swift; sourceTree = "<group>"; };
+		7CAA74DD228BA9FD00C17616 /* CoreDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewController.swift; sourceTree = "<group>"; };
+		7CB1468F2449470100AC774C /* CoreFaoundationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreFaoundationViewController.swift; sourceTree = "<group>"; };
+		7CB146912449472900AC774C /* CoreLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreLocationViewController.swift; sourceTree = "<group>"; };
+		7CB146932449474E00AC774C /* CoreMLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLViewController.swift; sourceTree = "<group>"; };
+		7CB146952449476F00AC774C /* CoreMotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionViewController.swift; sourceTree = "<group>"; };
+		7CB146972449479400AC774C /* CoreSpotlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreSpotlightViewController.swift; sourceTree = "<group>"; };
+		7CB14699244947B200AC774C /* CoreTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTextViewController.swift; sourceTree = "<group>"; };
+		7CB1469B244947D700AC774C /* DeviceCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCheckViewController.swift; sourceTree = "<group>"; };
+		7CB1469D244947F700AC774C /* EventKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventKitViewController.swift; sourceTree = "<group>"; };
+		7CB1469F2449481500AC774C /* EventKitUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventKitUIViewController.swift; sourceTree = "<group>"; };
+		7CB146A12449486C00AC774C /* FileProviderUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProviderUIViewController.swift; sourceTree = "<group>"; };
+		7CB146A32449489100AC774C /* HealthKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitViewController.swift; sourceTree = "<group>"; };
+		7CB146A5244948AF00AC774C /* HomeKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeKitViewController.swift; sourceTree = "<group>"; };
+		7CB146A72449495900AC774C /* iAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iAdViewController.swift; sourceTree = "<group>"; };
+		7CB146A92449497C00AC774C /* JavaScriptCoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaScriptCoreViewController.swift; sourceTree = "<group>"; };
+		7CB146AB2449499800AC774C /* MapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
+		7CB146AD244949B200AC774C /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		7CB146AF244949CB00AC774C /* MessageUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageUIViewController.swift; sourceTree = "<group>"; };
+		7CB146B1244949EA00AC774C /* MultipeerConnectivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerConnectivityViewController.swift; sourceTree = "<group>"; };
+		7CB146B324494A0700AC774C /* NaturalLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalLanguageViewController.swift; sourceTree = "<group>"; };
+		7CB146B524494A2200AC774C /* NewsstandKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsstandKitViewController.swift; sourceTree = "<group>"; };
+		7CB146B724494A4100AC774C /* NotificationCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterViewController.swift; sourceTree = "<group>"; };
+		7CB146B924494A5F00AC774C /* PassKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassKitViewController.swift; sourceTree = "<group>"; };
+		7CB146BB24494A7900AC774C /* PushKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushKitViewController.swift; sourceTree = "<group>"; };
+		7CB146BD24494AA100AC774C /* QuickLookThumbnailingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookThumbnailingViewController.swift; sourceTree = "<group>"; };
+		7CB146BF24494AC600AC774C /* SafariServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariServicesViewController.swift; sourceTree = "<group>"; };
+		7CB146C324494B3500AC774C /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
+		7CB146C524494B5C00AC774C /* SpeechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechViewController.swift; sourceTree = "<group>"; };
+		7CB146C724494B7400AC774C /* StoreKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitViewController.swift; sourceTree = "<group>"; };
+		7CB146C924494B9600AC774C /* UserNotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationsViewController.swift; sourceTree = "<group>"; };
+		7CB146CB24494BB400AC774C /* UserNotificationsUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationsUIViewController.swift; sourceTree = "<group>"; };
+		7CB146CD24494BCF00AC774C /* WatchConnectivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityViewController.swift; sourceTree = "<group>"; };
+		7CB146CF24494BE500AC774C /* WebKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitViewController.swift; sourceTree = "<group>"; };
+		7CB146D124494C2C00AC774C /* ARKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitViewController.swift; sourceTree = "<group>"; };
+		7CB146D524494C7E00AC774C /* CoreGraphicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicsViewController.swift; sourceTree = "<group>"; };
+		7CB146D724494C9A00AC774C /* CoreImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageViewController.swift; sourceTree = "<group>"; };
+		7CB146D924494CB700AC774C /* GameConterollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameConterollerViewController.swift; sourceTree = "<group>"; };
+		7CB146DB24494CCE00AC774C /* GameKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameKitViewController.swift; sourceTree = "<group>"; };
+		7CB146DD24494CE700AC774C /* GameplayKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameplayKitViewController.swift; sourceTree = "<group>"; };
+		7CB146DF24494CFF00AC774C /* GLKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLKitViewController.swift; sourceTree = "<group>"; };
+		7CB146E124494D1700AC774C /* ImageIOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageIOViewController.swift; sourceTree = "<group>"; };
+		7CB146E324494D2F00AC774C /* MetalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalViewController.swift; sourceTree = "<group>"; };
+		7CB146E524494D4C00AC774C /* MetalPerformanceShadersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalPerformanceShadersViewController.swift; sourceTree = "<group>"; };
+		7CB146E724494D7300AC774C /* MetalKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalKitViewController.swift; sourceTree = "<group>"; };
+		7CB146E924494E1000AC774C /* ModelIOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelIOViewController.swift; sourceTree = "<group>"; };
+		7CB146EB24494E2F00AC774C /* OpenGLESViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenGLESViewController.swift; sourceTree = "<group>"; };
+		7CB146ED24494E4600AC774C /* PDFKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitViewController.swift; sourceTree = "<group>"; };
+		7CB146EF24494E6400AC774C /* PencilKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitViewController.swift; sourceTree = "<group>"; };
+		7CB146F124494E8500AC774C /* RealityKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityKitViewController.swift; sourceTree = "<group>"; };
+		7CB146F324494EA000AC774C /* ReplayKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayKitViewController.swift; sourceTree = "<group>"; };
+		7CB146F524494EBE00AC774C /* SceneKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitViewController.swift; sourceTree = "<group>"; };
+		7CB146F724494ED800AC774C /* SpriteKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitViewController.swift; sourceTree = "<group>"; };
+		7CB146F924494EEF00AC774C /* VisionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionViewController.swift; sourceTree = "<group>"; };
+		7CB146FB24494F1100AC774C /* AssetsLibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsLibraryViewController.swift; sourceTree = "<group>"; };
+		7CB146FD24494F2B00AC774C /* AudioToolboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioToolboxViewController.swift; sourceTree = "<group>"; };
+		7CB146FF24494F4700AC774C /* AudioUnitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnitViewController.swift; sourceTree = "<group>"; };
+		7CB1470124494F6100AC774C /* AVFoundationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVFoundationViewController.swift; sourceTree = "<group>"; };
+		7CB1470324494F7700AC774C /* AVKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVKitViewController.swift; sourceTree = "<group>"; };
+		7CB1470524494F9200AC774C /* CoreAudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAudioViewController.swift; sourceTree = "<group>"; };
+		7CB1470724494FAE00AC774C /* CoreAudioKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAudioKitViewController.swift; sourceTree = "<group>"; };
+		7CB1470924494FCA00AC774C /* CoreAudioTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAudioTypesViewController.swift; sourceTree = "<group>"; };
+		7CB1470B24494FEC00AC774C /* CoreHapticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreHapticsViewController.swift; sourceTree = "<group>"; };
+		7CB1470D2449500C00AC774C /* CoreMediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMediaViewController.swift; sourceTree = "<group>"; };
+		7CB1470F2449502500AC774C /* CoreMIDIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMIDIViewController.swift; sourceTree = "<group>"; };
+		7CB147112449504000AC774C /* CoreVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreVideoViewController.swift; sourceTree = "<group>"; };
+		7CB147132449505F00AC774C /* ImageCaptureCoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCaptureCoreViewController.swift; sourceTree = "<group>"; };
+		7CB147152449507E00AC774C /* MediaPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayerViewController.swift; sourceTree = "<group>"; };
+		7CB147172449509C00AC774C /* MediaAccessibilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaAccessibilityViewController.swift; sourceTree = "<group>"; };
+		7CB14719244950BC00AC774C /* PhotoKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoKitViewController.swift; sourceTree = "<group>"; };
+		7CB1471B2449510500AC774C /* SoundAnalysisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundAnalysisViewController.swift; sourceTree = "<group>"; };
+		7CB1471D2449512000AC774C /* VideoToolboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoToolboxViewController.swift; sourceTree = "<group>"; };
+		7CB1471F2449513700AC774C /* VisionKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionKitViewController.swift; sourceTree = "<group>"; };
+		7CB147212449515800AC774C /* AccelerateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerateViewController.swift; sourceTree = "<group>"; };
+		7CB147232449517700AC774C /* AppleCryptoKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCryptoKitViewController.swift; sourceTree = "<group>"; };
+		7CB147252449519B00AC774C /* AuthenticationServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationServicesViewController.swift; sourceTree = "<group>"; };
+		7CB14727244951B600AC774C /* CFNetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFNetworkViewController.swift; sourceTree = "<group>"; };
+		7CB14729244951D300AC774C /* CompressionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressionViewController.swift; sourceTree = "<group>"; };
+		7CB1472B244951F100AC774C /* CoreBluetoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothViewController.swift; sourceTree = "<group>"; };
+		7CB1472D2449520700AC774C /* CoreNFCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreNFCViewController.swift; sourceTree = "<group>"; };
+		7CB1472F2449522200AC774C /* CoreServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreServicesViewController.swift; sourceTree = "<group>"; };
+		7CB147312449523F00AC774C /* CoreTelephonyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTelephonyViewController.swift; sourceTree = "<group>"; };
+		7CB147332449525F00AC774C /* CryptoTokenKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTokenKitViewController.swift; sourceTree = "<group>"; };
+		7CB14737244952C000AC774C /* DispatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchViewController.swift; sourceTree = "<group>"; };
+		7CB14739244952E900AC774C /* ExternalAccessoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalAccessoryViewController.swift; sourceTree = "<group>"; };
+		7CB1473B2449531500AC774C /* GSSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSSViewController.swift; sourceTree = "<group>"; };
+		7CB1473F2449536100AC774C /* IOSurfaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSurfaceViewController.swift; sourceTree = "<group>"; };
+		7CB147412449538400AC774C /* LocalAuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthenticationViewController.swift; sourceTree = "<group>"; };
+		7CB147432449539E00AC774C /* MetricKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricKitViewController.swift; sourceTree = "<group>"; };
+		7CB14745244953BA00AC774C /* MobileCoreServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileCoreServicesViewController.swift; sourceTree = "<group>"; };
+		7CB14747244953D500AC774C /* NetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
+		7CB14749244953F100AC774C /* NetworkExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkExtensionViewController.swift; sourceTree = "<group>"; };
+		7CB1474D2449543900AC774C /* osViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = osViewController.swift; sourceTree = "<group>"; };
+		7CB1474F2449545400AC774C /* SecurityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityViewController.swift; sourceTree = "<group>"; };
+		7CB147532449549600AC774C /* SystemConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemConfigurationViewController.swift; sourceTree = "<group>"; };
+		7CB14755244954B800AC774C /* LinkPresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkPresentationViewController.swift; sourceTree = "<group>"; };
+		7CCB1566228A96B50095F84F /* AccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsViewController.swift; sourceTree = "<group>"; };
+		7CCB1568228A97E20095F84F /* AddressBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookViewController.swift; sourceTree = "<group>"; };
+		7CCB156A228A99920095F84F /* AddressBookUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookUIViewController.swift; sourceTree = "<group>"; };
+		7CCB156C228A9A560095F84F /* AdSupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdSupportViewController.swift; sourceTree = "<group>"; };
+		7CCB156E228A9AA80095F84F /* BusinessChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessChatViewController.swift; sourceTree = "<group>"; };
+		7CCB1570228A9B140095F84F /* CallKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallKitViewController.swift; sourceTree = "<group>"; };
+		7CCB1572228AAE220095F84F /* CarPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayViewController.swift; sourceTree = "<group>"; };
+		7CCB1574228AB39F0095F84F /* ClassKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassKitViewController.swift; sourceTree = "<group>"; };
+		7CCB1576228AB4C10095F84F /* CloudKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C29A5CB2285631700E7FCC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C29A5E22285631800E7FCC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C29A5ED2285631800E7FCC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C29A5C52285631700E7FCC4 = {
+			isa = PBXGroup;
+			children = (
+				7C29A5D02285631700E7FCC4 /* iOSDocumentation */,
+				7C29A5E82285631800E7FCC4 /* iOSDocumentationTests */,
+				7C29A5F32285631800E7FCC4 /* iOSDocumentationUITests */,
+				7C29A5CF2285631700E7FCC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C29A5CF2285631700E7FCC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C29A5CE2285631700E7FCC4 /* iOSDocumentation.app */,
+				7C29A5E52285631800E7FCC4 /* iOSDocumentationTests.xctest */,
+				7C29A5F02285631800E7FCC4 /* iOSDocumentationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C29A5D02285631700E7FCC4 /* iOSDocumentation */ = {
+			isa = PBXGroup;
+			children = (
+				7C29A5D12285631700E7FCC4 /* AppDelegate.swift */,
+				7C29A5D32285631700E7FCC4 /* FoundationViewController.swift */,
+				7C5CF41F2289056F004E60A1 /* UIKitViewController.swift */,
+				7C5CF421228942A0004E60A1 /* AppKitViewController.swift */,
+				7C5CF42322894342004E60A1 /* FileProviderViewController.swift */,
+				7CB146A12449486C00AC774C /* FileProviderUIViewController.swift */,
+				7CCB1566228A96B50095F84F /* AccountsViewController.swift */,
+				7CCB1568228A97E20095F84F /* AddressBookViewController.swift */,
+				7CCB156A228A99920095F84F /* AddressBookUIViewController.swift */,
+				7CCB156C228A9A560095F84F /* AdSupportViewController.swift */,
+				7CCB156E228A9AA80095F84F /* BusinessChatViewController.swift */,
+				7CCB1570228A9B140095F84F /* CallKitViewController.swift */,
+				7CCB1572228AAE220095F84F /* CarPlayViewController.swift */,
+				7CCB1574228AB39F0095F84F /* ClassKitViewController.swift */,
+				7CCB1576228AB4C10095F84F /* CloudKitViewController.swift */,
+				7CAA74D9228BA59200C17616 /* ContactsViewController.swift */,
+				7CAA74DB228BA96900C17616 /* ContactsUIViewController.swift */,
+				7CAA74DD228BA9FD00C17616 /* CoreDataViewController.swift */,
+				7CB1468F2449470100AC774C /* CoreFaoundationViewController.swift */,
+				7CB146912449472900AC774C /* CoreLocationViewController.swift */,
+				7CB146932449474E00AC774C /* CoreMLViewController.swift */,
+				7CB146952449476F00AC774C /* CoreMotionViewController.swift */,
+				7CB146972449479400AC774C /* CoreSpotlightViewController.swift */,
+				7CB14699244947B200AC774C /* CoreTextViewController.swift */,
+				7CB1469B244947D700AC774C /* DeviceCheckViewController.swift */,
+				7CB1469D244947F700AC774C /* EventKitViewController.swift */,
+				7CB1469F2449481500AC774C /* EventKitUIViewController.swift */,
+				7CB146A32449489100AC774C /* HealthKitViewController.swift */,
+				7CB146A5244948AF00AC774C /* HomeKitViewController.swift */,
+				7CB146A72449495900AC774C /* iAdViewController.swift */,
+				7CB146A92449497C00AC774C /* JavaScriptCoreViewController.swift */,
+				7CB146AB2449499800AC774C /* MapKitViewController.swift */,
+				7CB146AD244949B200AC774C /* MessagesViewController.swift */,
+				7CB146AF244949CB00AC774C /* MessageUIViewController.swift */,
+				7CB146B1244949EA00AC774C /* MultipeerConnectivityViewController.swift */,
+				7CB146B324494A0700AC774C /* NaturalLanguageViewController.swift */,
+				7CB146B524494A2200AC774C /* NewsstandKitViewController.swift */,
+				7CB146B724494A4100AC774C /* NotificationCenterViewController.swift */,
+				7CB146B924494A5F00AC774C /* PassKitViewController.swift */,
+				7CB146BB24494A7900AC774C /* PushKitViewController.swift */,
+				7CB146BD24494AA100AC774C /* QuickLookThumbnailingViewController.swift */,
+				7CB146BF24494AC600AC774C /* SafariServicesViewController.swift */,
+				7CB146C324494B3500AC774C /* SocialViewController.swift */,
+				7CB146C524494B5C00AC774C /* SpeechViewController.swift */,
+				7CB146C724494B7400AC774C /* StoreKitViewController.swift */,
+				7CB146C924494B9600AC774C /* UserNotificationsViewController.swift */,
+				7CB146CB24494BB400AC774C /* UserNotificationsUIViewController.swift */,
+				7CB146CD24494BCF00AC774C /* WatchConnectivityViewController.swift */,
+				7CB146CF24494BE500AC774C /* WebKitViewController.swift */,
+				7CB146D124494C2C00AC774C /* ARKitViewController.swift */,
+				7CB146D524494C7E00AC774C /* CoreGraphicsViewController.swift */,
+				7CB146D724494C9A00AC774C /* CoreImageViewController.swift */,
+				7CB146D924494CB700AC774C /* GameConterollerViewController.swift */,
+				7CB146DB24494CCE00AC774C /* GameKitViewController.swift */,
+				7CB146DD24494CE700AC774C /* GameplayKitViewController.swift */,
+				7CB146DF24494CFF00AC774C /* GLKitViewController.swift */,
+				7CB146E124494D1700AC774C /* ImageIOViewController.swift */,
+				7CB146E324494D2F00AC774C /* MetalViewController.swift */,
+				7CB146E524494D4C00AC774C /* MetalPerformanceShadersViewController.swift */,
+				7CB146E724494D7300AC774C /* MetalKitViewController.swift */,
+				7CB146E924494E1000AC774C /* ModelIOViewController.swift */,
+				7CB146EB24494E2F00AC774C /* OpenGLESViewController.swift */,
+				7CB146ED24494E4600AC774C /* PDFKitViewController.swift */,
+				7CB146EF24494E6400AC774C /* PencilKitViewController.swift */,
+				7CB146F124494E8500AC774C /* RealityKitViewController.swift */,
+				7CB146F324494EA000AC774C /* ReplayKitViewController.swift */,
+				7CB146F524494EBE00AC774C /* SceneKitViewController.swift */,
+				7CB146F724494ED800AC774C /* SpriteKitViewController.swift */,
+				7CB146F924494EEF00AC774C /* VisionViewController.swift */,
+				7CB146FB24494F1100AC774C /* AssetsLibraryViewController.swift */,
+				7CB146FD24494F2B00AC774C /* AudioToolboxViewController.swift */,
+				7CB146FF24494F4700AC774C /* AudioUnitViewController.swift */,
+				7CB1470124494F6100AC774C /* AVFoundationViewController.swift */,
+				7CB1470324494F7700AC774C /* AVKitViewController.swift */,
+				7CB1470524494F9200AC774C /* CoreAudioViewController.swift */,
+				7CB1470724494FAE00AC774C /* CoreAudioKitViewController.swift */,
+				7CB1470924494FCA00AC774C /* CoreAudioTypesViewController.swift */,
+				7CB1470B24494FEC00AC774C /* CoreHapticsViewController.swift */,
+				7CB1470D2449500C00AC774C /* CoreMediaViewController.swift */,
+				7CB1470F2449502500AC774C /* CoreMIDIViewController.swift */,
+				7CB147112449504000AC774C /* CoreVideoViewController.swift */,
+				7CB147132449505F00AC774C /* ImageCaptureCoreViewController.swift */,
+				7CB147152449507E00AC774C /* MediaPlayerViewController.swift */,
+				7CB147172449509C00AC774C /* MediaAccessibilityViewController.swift */,
+				7CB14719244950BC00AC774C /* PhotoKitViewController.swift */,
+				7CB1471B2449510500AC774C /* SoundAnalysisViewController.swift */,
+				7CB1471D2449512000AC774C /* VideoToolboxViewController.swift */,
+				7CB1471F2449513700AC774C /* VisionKitViewController.swift */,
+				7CB147212449515800AC774C /* AccelerateViewController.swift */,
+				7CB147232449517700AC774C /* AppleCryptoKitViewController.swift */,
+				7CB147252449519B00AC774C /* AuthenticationServicesViewController.swift */,
+				7CB14727244951B600AC774C /* CFNetworkViewController.swift */,
+				7CB14729244951D300AC774C /* CompressionViewController.swift */,
+				7CB1472B244951F100AC774C /* CoreBluetoothViewController.swift */,
+				7CB1472D2449520700AC774C /* CoreNFCViewController.swift */,
+				7CB1472F2449522200AC774C /* CoreServicesViewController.swift */,
+				7CB147312449523F00AC774C /* CoreTelephonyViewController.swift */,
+				7CB147332449525F00AC774C /* CryptoTokenKitViewController.swift */,
+				7CB14737244952C000AC774C /* DispatchViewController.swift */,
+				7CB14739244952E900AC774C /* ExternalAccessoryViewController.swift */,
+				7CB1473B2449531500AC774C /* GSSViewController.swift */,
+				7CB1473F2449536100AC774C /* IOSurfaceViewController.swift */,
+				7CB147412449538400AC774C /* LocalAuthenticationViewController.swift */,
+				7CB147432449539E00AC774C /* MetricKitViewController.swift */,
+				7CB14745244953BA00AC774C /* MobileCoreServicesViewController.swift */,
+				7CB14747244953D500AC774C /* NetworkViewController.swift */,
+				7CB14749244953F100AC774C /* NetworkExtensionViewController.swift */,
+				7CB1474D2449543900AC774C /* osViewController.swift */,
+				7CB1474F2449545400AC774C /* SecurityViewController.swift */,
+				7CB147532449549600AC774C /* SystemConfigurationViewController.swift */,
+				7CB14755244954B800AC774C /* LinkPresentationViewController.swift */,
+				7C29A5D52285631700E7FCC4 /* Main.storyboard */,
+				7C29A5DB2285631800E7FCC4 /* Assets.xcassets */,
+				7C29A5DD2285631800E7FCC4 /* LaunchScreen.storyboard */,
+				7C29A5E02285631800E7FCC4 /* Info.plist */,
+				7C29A5D82285631700E7FCC4 /* iOSDocumentation.xcdatamodeld */,
+			);
+			path = iOSDocumentation;
+			sourceTree = "<group>";
+		};
+		7C29A5E82285631800E7FCC4 /* iOSDocumentationTests */ = {
+			isa = PBXGroup;
+			children = (
+				7C29A5E92285631800E7FCC4 /* iOSDocumentationTests.swift */,
+				7C29A5EB2285631800E7FCC4 /* Info.plist */,
+			);
+			path = iOSDocumentationTests;
+			sourceTree = "<group>";
+		};
+		7C29A5F32285631800E7FCC4 /* iOSDocumentationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7C29A5F42285631800E7FCC4 /* iOSDocumentationUITests.swift */,
+				7C29A5F62285631800E7FCC4 /* Info.plist */,
+			);
+			path = iOSDocumentationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C29A5CD2285631700E7FCC4 /* iOSDocumentation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C29A5F92285631800E7FCC4 /* Build configuration list for PBXNativeTarget "iOSDocumentation" */;
+			buildPhases = (
+				7C29A5CA2285631700E7FCC4 /* Sources */,
+				7C29A5CB2285631700E7FCC4 /* Frameworks */,
+				7C29A5CC2285631700E7FCC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSDocumentation;
+			productName = iOSDocumentation;
+			productReference = 7C29A5CE2285631700E7FCC4 /* iOSDocumentation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7C29A5E42285631800E7FCC4 /* iOSDocumentationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C29A5FC2285631800E7FCC4 /* Build configuration list for PBXNativeTarget "iOSDocumentationTests" */;
+			buildPhases = (
+				7C29A5E12285631800E7FCC4 /* Sources */,
+				7C29A5E22285631800E7FCC4 /* Frameworks */,
+				7C29A5E32285631800E7FCC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C29A5E72285631800E7FCC4 /* PBXTargetDependency */,
+			);
+			name = iOSDocumentationTests;
+			productName = iOSDocumentationTests;
+			productReference = 7C29A5E52285631800E7FCC4 /* iOSDocumentationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7C29A5EF2285631800E7FCC4 /* iOSDocumentationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C29A5FF2285631800E7FCC4 /* Build configuration list for PBXNativeTarget "iOSDocumentationUITests" */;
+			buildPhases = (
+				7C29A5EC2285631800E7FCC4 /* Sources */,
+				7C29A5ED2285631800E7FCC4 /* Frameworks */,
+				7C29A5EE2285631800E7FCC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C29A5F22285631800E7FCC4 /* PBXTargetDependency */,
+			);
+			name = iOSDocumentationUITests;
+			productName = iOSDocumentationUITests;
+			productReference = 7C29A5F02285631800E7FCC4 /* iOSDocumentationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C29A5C62285631700E7FCC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "王乙涵";
+				TargetAttributes = {
+					7C29A5CD2285631700E7FCC4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7C29A5E42285631800E7FCC4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7C29A5CD2285631700E7FCC4;
+					};
+					7C29A5EF2285631800E7FCC4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7C29A5CD2285631700E7FCC4;
+					};
+				};
+			};
+			buildConfigurationList = 7C29A5C92285631700E7FCC4 /* Build configuration list for PBXProject "iOSDocumentation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C29A5C52285631700E7FCC4;
+			productRefGroup = 7C29A5CF2285631700E7FCC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C29A5CD2285631700E7FCC4 /* iOSDocumentation */,
+				7C29A5E42285631800E7FCC4 /* iOSDocumentationTests */,
+				7C29A5EF2285631800E7FCC4 /* iOSDocumentationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C29A5CC2285631700E7FCC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C29A5DF2285631800E7FCC4 /* LaunchScreen.storyboard in Resources */,
+				7C29A5DC2285631800E7FCC4 /* Assets.xcassets in Resources */,
+				7C29A5D72285631700E7FCC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C29A5E32285631800E7FCC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C29A5EE2285631800E7FCC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C29A5CA2285631700E7FCC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB146E024494CFF00AC774C /* GLKitViewController.swift in Sources */,
+				7CB1470424494F7700AC774C /* AVKitViewController.swift in Sources */,
+				7CB146922449472900AC774C /* CoreLocationViewController.swift in Sources */,
+				7C29A5D42285631700E7FCC4 /* FoundationViewController.swift in Sources */,
+				7CB146B0244949CB00AC774C /* MessageUIViewController.swift in Sources */,
+				7CB146C824494B7400AC774C /* StoreKitViewController.swift in Sources */,
+				7CB146BE24494AA100AC774C /* QuickLookThumbnailingViewController.swift in Sources */,
+				7CB146FE24494F2B00AC774C /* AudioToolboxViewController.swift in Sources */,
+				7CB1471A244950BC00AC774C /* PhotoKitViewController.swift in Sources */,
+				7CB1471C2449510500AC774C /* SoundAnalysisViewController.swift in Sources */,
+				7CB1470824494FAE00AC774C /* CoreAudioKitViewController.swift in Sources */,
+				7CB146BC24494A7900AC774C /* PushKitViewController.swift in Sources */,
+				7CB146E824494D7300AC774C /* MetalKitViewController.swift in Sources */,
+				7CB146CA24494B9600AC774C /* UserNotificationsViewController.swift in Sources */,
+				7CB146E424494D2F00AC774C /* MetalViewController.swift in Sources */,
+				7CB146902449470100AC774C /* CoreFaoundationViewController.swift in Sources */,
+				7CB147142449505F00AC774C /* ImageCaptureCoreViewController.swift in Sources */,
+				7CB146D024494BE500AC774C /* WebKitViewController.swift in Sources */,
+				7CB146A82449495900AC774C /* iAdViewController.swift in Sources */,
+				7CB146A02449481500AC774C /* EventKitUIViewController.swift in Sources */,
+				7CCB156B228A99920095F84F /* AddressBookUIViewController.swift in Sources */,
+				7CB146A22449486C00AC774C /* FileProviderUIViewController.swift in Sources */,
+				7CB147242449517700AC774C /* AppleCryptoKitViewController.swift in Sources */,
+				7CB1469C244947D700AC774C /* DeviceCheckViewController.swift in Sources */,
+				7C5CF4202289056F004E60A1 /* UIKitViewController.swift in Sources */,
+				7CB147162449507E00AC774C /* MediaPlayerViewController.swift in Sources */,
+				7CB146FA24494EEF00AC774C /* VisionViewController.swift in Sources */,
+				7CB146B624494A2200AC774C /* NewsstandKitViewController.swift in Sources */,
+				7CB146F424494EA000AC774C /* ReplayKitViewController.swift in Sources */,
+				7CB146D824494C9A00AC774C /* CoreImageViewController.swift in Sources */,
+				7CB147222449515800AC774C /* AccelerateViewController.swift in Sources */,
+				7CB146A6244948AF00AC774C /* HomeKitViewController.swift in Sources */,
+				7CB146DC24494CCE00AC774C /* GameKitViewController.swift in Sources */,
+				7CCB1569228A97E20095F84F /* AddressBookViewController.swift in Sources */,
+				7C29A5D22285631700E7FCC4 /* AppDelegate.swift in Sources */,
+				7CB146AA2449497C00AC774C /* JavaScriptCoreViewController.swift in Sources */,
+				7CB146B824494A4100AC774C /* NotificationCenterViewController.swift in Sources */,
+				7CAA74DA228BA59200C17616 /* ContactsViewController.swift in Sources */,
+				7CB1470E2449500C00AC774C /* CoreMediaViewController.swift in Sources */,
+				7CB146982449479400AC774C /* CoreSpotlightViewController.swift in Sources */,
+				7CB14756244954B800AC774C /* LinkPresentationViewController.swift in Sources */,
+				7CB146AC2449499800AC774C /* MapKitViewController.swift in Sources */,
+				7CB147402449536100AC774C /* IOSurfaceViewController.swift in Sources */,
+				7CB146EC24494E2F00AC774C /* OpenGLESViewController.swift in Sources */,
+				7CB147442449539F00AC774C /* MetricKitViewController.swift in Sources */,
+				7CB14738244952C000AC774C /* DispatchViewController.swift in Sources */,
+				7CB1474A244953F100AC774C /* NetworkExtensionViewController.swift in Sources */,
+				7CB147182449509C00AC774C /* MediaAccessibilityViewController.swift in Sources */,
+				7CB14748244953D500AC774C /* NetworkViewController.swift in Sources */,
+				7CB147502449545400AC774C /* SecurityViewController.swift in Sources */,
+				7CB146A42449489100AC774C /* HealthKitViewController.swift in Sources */,
+				7CB146E224494D1700AC774C /* ImageIOViewController.swift in Sources */,
+				7CB147102449502500AC774C /* CoreMIDIViewController.swift in Sources */,
+				7CB146CC24494BB400AC774C /* UserNotificationsUIViewController.swift in Sources */,
+				7CB147202449513700AC774C /* VisionKitViewController.swift in Sources */,
+				7CCB1571228A9B140095F84F /* CallKitViewController.swift in Sources */,
+				7CCB156F228A9AA80095F84F /* BusinessChatViewController.swift in Sources */,
+				7CB146B424494A0700AC774C /* NaturalLanguageViewController.swift in Sources */,
+				7CB1469E244947F700AC774C /* EventKitViewController.swift in Sources */,
+				7CB146AE244949B200AC774C /* MessagesViewController.swift in Sources */,
+				7CB1472E2449520700AC774C /* CoreNFCViewController.swift in Sources */,
+				7CB146CE24494BCF00AC774C /* WatchConnectivityViewController.swift in Sources */,
+				7CB1473C2449531500AC774C /* GSSViewController.swift in Sources */,
+				7CB146D624494C7E00AC774C /* CoreGraphicsViewController.swift in Sources */,
+				7CB146942449474E00AC774C /* CoreMLViewController.swift in Sources */,
+				7CAA74DC228BA96900C17616 /* ContactsUIViewController.swift in Sources */,
+				7CAA74DE228BA9FD00C17616 /* CoreDataViewController.swift in Sources */,
+				7CB146BA24494A5F00AC774C /* PassKitViewController.swift in Sources */,
+				7CB146C624494B5C00AC774C /* SpeechViewController.swift in Sources */,
+				7CB146962449476F00AC774C /* CoreMotionViewController.swift in Sources */,
+				7CB146F824494ED800AC774C /* SpriteKitViewController.swift in Sources */,
+				7CB1474E2449543900AC774C /* osViewController.swift in Sources */,
+				7CB1470C24494FEC00AC774C /* CoreHapticsViewController.swift in Sources */,
+				7CB146DE24494CE700AC774C /* GameplayKitViewController.swift in Sources */,
+				7CB147422449538400AC774C /* LocalAuthenticationViewController.swift in Sources */,
+				7CB147262449519B00AC774C /* AuthenticationServicesViewController.swift in Sources */,
+				7C29A5DA2285631700E7FCC4 /* iOSDocumentation.xcdatamodeld in Sources */,
+				7CB147302449522200AC774C /* CoreServicesViewController.swift in Sources */,
+				7CCB1577228AB4C10095F84F /* CloudKitViewController.swift in Sources */,
+				7CB146DA24494CB700AC774C /* GameConterollerViewController.swift in Sources */,
+				7CB147322449523F00AC774C /* CoreTelephonyViewController.swift in Sources */,
+				7CB147342449525F00AC774C /* CryptoTokenKitViewController.swift in Sources */,
+				7CB1470A24494FCA00AC774C /* CoreAudioTypesViewController.swift in Sources */,
+				7CB1470024494F4700AC774C /* AudioUnitViewController.swift in Sources */,
+				7CB147122449504000AC774C /* CoreVideoViewController.swift in Sources */,
+				7CB146F024494E6400AC774C /* PencilKitViewController.swift in Sources */,
+				7CB146F624494EBE00AC774C /* SceneKitViewController.swift in Sources */,
+				7CB146C024494AC600AC774C /* SafariServicesViewController.swift in Sources */,
+				7CB146EA24494E1000AC774C /* ModelIOViewController.swift in Sources */,
+				7CCB1575228AB39F0095F84F /* ClassKitViewController.swift in Sources */,
+				7CB1471E2449512000AC774C /* VideoToolboxViewController.swift in Sources */,
+				7CB147542449549600AC774C /* SystemConfigurationViewController.swift in Sources */,
+				7CB1472C244951F100AC774C /* CoreBluetoothViewController.swift in Sources */,
+				7CB1470224494F6100AC774C /* AVFoundationViewController.swift in Sources */,
+				7CB146B2244949EA00AC774C /* MultipeerConnectivityViewController.swift in Sources */,
+				7CB146EE24494E4600AC774C /* PDFKitViewController.swift in Sources */,
+				7CCB1573228AAE220095F84F /* CarPlayViewController.swift in Sources */,
+				7CB14728244951B600AC774C /* CFNetworkViewController.swift in Sources */,
+				7CB146E624494D4C00AC774C /* MetalPerformanceShadersViewController.swift in Sources */,
+				7CB146D224494C2C00AC774C /* ARKitViewController.swift in Sources */,
+				7CB1473A244952E900AC774C /* ExternalAccessoryViewController.swift in Sources */,
+				7CB14746244953BA00AC774C /* MobileCoreServicesViewController.swift in Sources */,
+				7C5CF42422894342004E60A1 /* FileProviderViewController.swift in Sources */,
+				7CB146F224494E8500AC774C /* RealityKitViewController.swift in Sources */,
+				7CB1469A244947B200AC774C /* CoreTextViewController.swift in Sources */,
+				7CB1472A244951D300AC774C /* CompressionViewController.swift in Sources */,
+				7CB1470624494F9200AC774C /* CoreAudioViewController.swift in Sources */,
+				7CCB156D228A9A560095F84F /* AdSupportViewController.swift in Sources */,
+				7CB146FC24494F1100AC774C /* AssetsLibraryViewController.swift in Sources */,
+				7CCB1567228A96B50095F84F /* AccountsViewController.swift in Sources */,
+				7C5CF422228942A0004E60A1 /* AppKitViewController.swift in Sources */,
+				7CB146C424494B3500AC774C /* SocialViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C29A5E12285631800E7FCC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C29A5EA2285631800E7FCC4 /* iOSDocumentationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C29A5EC2285631800E7FCC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C29A5F52285631800E7FCC4 /* iOSDocumentationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C29A5E72285631800E7FCC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C29A5CD2285631700E7FCC4 /* iOSDocumentation */;
+			targetProxy = 7C29A5E62285631800E7FCC4 /* PBXContainerItemProxy */;
+		};
+		7C29A5F22285631800E7FCC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C29A5CD2285631700E7FCC4 /* iOSDocumentation */;
+			targetProxy = 7C29A5F12285631800E7FCC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7C29A5D52285631700E7FCC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C29A5D62285631700E7FCC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7C29A5DD2285631800E7FCC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C29A5DE2285631800E7FCC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C29A5F72285631800E7FCC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7C29A5F82285631800E7FCC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C29A5FA2285631800E7FCC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = iOSDocumentation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wyh.iOSDocumentation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C29A5FB2285631800E7FCC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = iOSDocumentation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wyh.iOSDocumentation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7C29A5FD2285631800E7FCC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSDocumentationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wyh.iOSDocumentationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSDocumentation.app/iOSDocumentation";
+			};
+			name = Debug;
+		};
+		7C29A5FE2285631800E7FCC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSDocumentationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wyh.iOSDocumentationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSDocumentation.app/iOSDocumentation";
+			};
+			name = Release;
+		};
+		7C29A6002285631800E7FCC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSDocumentationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wyh.iOSDocumentationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSDocumentation;
+			};
+			name = Debug;
+		};
+		7C29A6012285631800E7FCC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSDocumentationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wyh.iOSDocumentationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSDocumentation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C29A5C92285631700E7FCC4 /* Build configuration list for PBXProject "iOSDocumentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C29A5F72285631800E7FCC4 /* Debug */,
+				7C29A5F82285631800E7FCC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C29A5F92285631800E7FCC4 /* Build configuration list for PBXNativeTarget "iOSDocumentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C29A5FA2285631800E7FCC4 /* Debug */,
+				7C29A5FB2285631800E7FCC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C29A5FC2285631800E7FCC4 /* Build configuration list for PBXNativeTarget "iOSDocumentationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C29A5FD2285631800E7FCC4 /* Debug */,
+				7C29A5FE2285631800E7FCC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C29A5FF2285631800E7FCC4 /* Build configuration list for PBXNativeTarget "iOSDocumentationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C29A6002285631800E7FCC4 /* Debug */,
+				7C29A6012285631800E7FCC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7C29A5D82285631700E7FCC4 /* iOSDocumentation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7C29A5D92285631700E7FCC4 /* iOSDocumentation.xcdatamodel */,
+			);
+			currentVersion = 7C29A5D92285631700E7FCC4 /* iOSDocumentation.xcdatamodel */;
+			path = iOSDocumentation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7C29A5C62285631700E7FCC4 /* Project object */;
+}
