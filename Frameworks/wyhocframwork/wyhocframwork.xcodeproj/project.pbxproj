@@ -19,6 +19,9 @@
 		7C9B233D2603351800F1D0ED /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9B233C2603351800F1D0ED /* BaseViewController.m */; };
 		7C9B23462603353400F1D0ED /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9B23452603353400F1D0ED /* BaseView.m */; };
 		7C9B234C2603371C00F1D0ED /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9B234B2603371C00F1D0ED /* ListViewController.m */; };
+		7C9B236826033FB100F1D0ED /* BaseUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9B236726033FB100F1D0ED /* BaseUtil.m */; };
+		7C9B237126033FF700F1D0ED /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9B237026033FF700F1D0ED /* BaseModel.m */; };
+		7C9B23772603400000F1D0ED /* BaseNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9B23762603400000F1D0ED /* BaseNet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,12 @@
 		7C9B23452603353400F1D0ED /* BaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
 		7C9B234A2603371C00F1D0ED /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
 		7C9B234B2603371C00F1D0ED /* ListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		7C9B236626033FB100F1D0ED /* BaseUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseUtil.h; sourceTree = "<group>"; };
+		7C9B236726033FB100F1D0ED /* BaseUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseUtil.m; sourceTree = "<group>"; };
+		7C9B236F26033FF700F1D0ED /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		7C9B237026033FF700F1D0ED /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		7C9B23752603400000F1D0ED /* BaseNet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNet.h; sourceTree = "<group>"; };
+		7C9B23762603400000F1D0ED /* BaseNet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +122,8 @@
 		7C9B22BE2603316400F1D0ED /* wyhocframwork */ = {
 			isa = PBXGroup;
 			children = (
-				7C9B233A260334F700F1D0ED /* Base */,
+				7C9B233A260334F700F1D0ED /* UI */,
 				7C9B2339260334E700F1D0ED /* Util */,
-				7C9B2338260334D900F1D0ED /* UI */,
 				7C9B2337260334D300F1D0ED /* Model */,
 				7C9B2336260334C400F1D0ED /* Net */,
 				7C9B22BF2603316400F1D0ED /* AppDelegate.h */,
@@ -156,6 +164,8 @@
 		7C9B2336260334C400F1D0ED /* Net */ = {
 			isa = PBXGroup;
 			children = (
+				7C9B23752603400000F1D0ED /* BaseNet.h */,
+				7C9B23762603400000F1D0ED /* BaseNet.m */,
 			);
 			path = Net;
 			sourceTree = "<group>";
@@ -163,25 +173,22 @@
 		7C9B2337260334D300F1D0ED /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7C9B236F26033FF700F1D0ED /* BaseModel.h */,
+				7C9B237026033FF700F1D0ED /* BaseModel.m */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		7C9B2338260334D900F1D0ED /* UI */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UI;
 			sourceTree = "<group>";
 		};
 		7C9B2339260334E700F1D0ED /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				7C9B236626033FB100F1D0ED /* BaseUtil.h */,
+				7C9B236726033FB100F1D0ED /* BaseUtil.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
 		};
-		7C9B233A260334F700F1D0ED /* Base */ = {
+		7C9B233A260334F700F1D0ED /* UI */ = {
 			isa = PBXGroup;
 			children = (
 				7C9B233B2603351800F1D0ED /* BaseViewController.h */,
@@ -189,7 +196,7 @@
 				7C9B23442603353400F1D0ED /* BaseView.h */,
 				7C9B23452603353400F1D0ED /* BaseView.m */,
 			);
-			path = Base;
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,12 +328,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9B237126033FF700F1D0ED /* BaseModel.m in Sources */,
 				7C9B22C72603316400F1D0ED /* ViewController.m in Sources */,
+				7C9B23772603400000F1D0ED /* BaseNet.m in Sources */,
 				7C9B233D2603351800F1D0ED /* BaseViewController.m in Sources */,
 				7C9B234C2603371C00F1D0ED /* ListViewController.m in Sources */,
 				7C9B22C12603316400F1D0ED /* AppDelegate.m in Sources */,
 				7C9B22D22603316400F1D0ED /* main.m in Sources */,
 				7C9B22C42603316400F1D0ED /* SceneDelegate.m in Sources */,
+				7C9B236826033FB100F1D0ED /* BaseUtil.m in Sources */,
 				7C9B23462603353400F1D0ED /* BaseView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
