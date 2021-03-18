@@ -6,7 +6,10 @@
 //
 
 #import "ListViewController.h"
-
+#import "NetListViewController.h"
+#import "UIListViewController.h"
+#import "UtilListViewController.h"
+#import "ModelListViewController.h"
 @interface ListViewController () <UITableViewDataSource, UITableViewDelegate>
 @property(nonatomic, strong)UITableView * table;
 @property(nonatomic, strong)NSArray * list;
@@ -52,5 +55,25 @@
     return _list.count;
 }
 
-
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSString * str = _list[indexPath.row];
+    if ([str isEqualToString:@"Net学习"]) {
+        NetListViewController * vc = [NetListViewController new];
+        vc.title = str;
+        [self.navigationController pushViewController:vc animated:YES];
+    } else if ([str isEqualToString:@"Model学习"]) {
+        ModelListViewController * vc = [ModelListViewController new];
+        vc.title = str;
+        [self.navigationController pushViewController:vc animated:YES];
+    } else if ([str isEqualToString:@"UI学习"]) {
+        UIListViewController * vc = [UIListViewController new];
+        vc.title = str;
+        [self.navigationController pushViewController:vc animated:YES];
+    } else if ([str isEqualToString:@"Util学习"]) {
+        UtilListViewController * vc = [UtilListViewController new];
+        vc.title = str;
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    
+}
 @end

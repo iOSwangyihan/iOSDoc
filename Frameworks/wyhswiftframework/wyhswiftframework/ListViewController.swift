@@ -51,5 +51,27 @@ extension ListViewController : UITableViewDelegate, UITableViewDataSource {
         return cell
     }
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let str = list[indexPath.row]
+        switch str {
+        case "Net学习":
+            let vc = NetListViewController()
+            vc.title = str
+            self.navigationController?.pushViewController(vc, animated: true)
+        case "Model学习":
+            let vc = ModelListViewController()
+            vc.title = str
+            self.navigationController?.pushViewController(vc, animated: true)
+        case "UI学习":
+            let vc = UIListViewController()
+            vc.title = str
+            self.navigationController?.pushViewController(vc, animated: true)
+        case "Util学习":
+            let vc = UtilListViewController()
+            vc.title = str
+            self.navigationController?.pushViewController(vc, animated: true)
+        default:
+            print("未知")
+        }
+    }
 }

@@ -1,21 +1,20 @@
 //
-//  BaseViewController.m
+//  ModelListViewController.m
 //  wyhocframwork
 //
 //  Created by 王乙涵 on 2021/3/18.
 //
 
-#import "BaseViewController.h"
+#import "ModelListViewController.h"
 
-@interface BaseViewController ()
+@interface ModelListViewController ()
 
 @end
 
-@implementation BaseViewController
+@implementation ModelListViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
     // Do any additional setup after loading the view.
 }
 
